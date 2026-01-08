@@ -1301,12 +1301,12 @@ margin-top: 23px;
     background-color: rgb(53, 39, 134);
     border-radius: 15px;
     transition: .5s;
+    z-index: -1;
 }
 .item-section10:hover::after{
-    width: 100%;
     height: 100%;
     transition: .5s;
-    opacity: 0.4;
+    opacity: .5;
 }
 .item-section10:hover .item-img-section10,.item-icons-section10,.btn-info-section10,.par-info-section10{
     position: relative;
